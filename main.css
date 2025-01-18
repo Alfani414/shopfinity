@@ -589,7 +589,196 @@ footer a:hover {
 }
 
 
+section.contact-page {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa; /* Warna latar belakang yang netral */
+}
+
+.contact-container {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+.contact-left {
+  background-color: #2D3250; /* Biru gelap */
+  color: white;
+  width: 50%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.contact-left h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.contact-info a {
+  color: inherit; /* Warna mengikuti warna teks di sekitarnya */
+  text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+.contact-info a:hover {
+  color: #F9B17A; /* Warna oranye terang saat hover */
+}
+
+.contact-info span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-info svg {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #F9B17A; /* Warna oranye untuk ikon */
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #FF8C00; /* Warna oranye cerah saat hover */
+}
+
+.contact-right {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  width: 50%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.contact-form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form-group label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; /* optional: set font weight */
+}
+
+.contact-form-group input,
+.contact-form-group textarea {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact-form-group textarea {
+  resize: none;
+  height: 120px;
+}
+
+.contact-form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 14px;
+}
+
+.contact-btn {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  padding: 12px 24px;
+  color: white;
+  background-color: #F9B17A; /* Oranye terang untuk tombol */
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-btn:hover {
+  background-color: #FF8C00; /* Oranye cerah saat hover */
+}
+
+.contact-footer {
+  margin-top: 10px;
+  color: #888;
+  font-size: 12px;
+}
+
+.contact-map {
+  margin-top: 20px;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  border-radius: 8px;
+}
 
 
 
 
+
+.footer-container {
+  /* Gaya untuk keseluruhan container footer */
+  background-color: #2D3250;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  display: flex; /* Menggunakan flexbox untuk tata letak */
+  justify-content: space-between; /* Menempatkan elemen secara horizontal */
+  align-items: center; /* Menyejajarkan elemen secara vertikal */
+}
+
+.footer-section {
+  /* Menghapus properti yang tidak diperlukan */
+  flex: 1; /* Memberikan fleksibilitas pada setiap section */
+  text-align: left;
+}
+
+/* Gaya khusus untuk bagian Useful Links */
+.useful-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.useful-links li {
+  margin-bottom: 5px;
+}
+
+.useful-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Gaya khusus untuk bagian Contact Us */
+.contact-us {
+  /* Gaya khusus untuk bagian Contact Us */
+}
+
+.copyright {
+  /* Gaya untuk bagian copyright */
+  margin-top: 20px;
+  font-size: 14px;
+  
+}
