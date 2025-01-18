@@ -46,5 +46,3 @@ function stickyNavbar() {
 window.onscroll = function() {
     stickyNavbar();
 };
-
-
